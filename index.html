@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafty Ventures | Cute Ceramic Mugs</title>
+    <style>
+        :root {
+            --primary: #ffb6c1;
+            --bg: #fffaf0;
+            --text: #4a4a4a;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: var(--primary);
+            padding: 2rem;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        p.tagline {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        img {
+            max-width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        .price {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin: 10px 0;
+        }
+        button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s;
+            margin-top: auto;
+        }
+        button:hover {
+            background-color: #ff9aa2;
+        }
+        footer {
+            margin-top: 4rem;
+            padding: 2rem;
+            background-color: #ffe4e1;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Crafty Ventures</h1>
+    <p class="tagline">Whimsical Ceramics for Your Daily Sip</p>
+</header>
+
+<div class="container">
+    <h2>Our Latest Arrivals</h2>
+    <div class="grid">
+        
+        <!-- Product 1 -->
+        <div class="card">
+            <img src="Unknown-8.jpg" alt="Swiss Cheese Block Mug">
+            <h3>The Swiss Cheese Mug</h3>
+            <p>A quirky, square-shaped ceramic mug featuring realistic cheese holes. Perfect for the bold and the playful.</p>
+            <div class="price">$22.00</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="card">
+            <img src="Unknown-4.jpg" alt="Cloudy Blue Handle Mug">
+            <h3>Cloud Handle Mug</h3>
+            <p>Soft cream texture paired with a chunky, wavy pastel blue handle. Like holding a piece of the sky.</p>
+            <div class="price">$24.00</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="card">
+            <img src="Unknown-6.jpg" alt="Earthy Green Grip Mug">
+            <h3>Earthy Matcha Mug</h3>
+            <p>Minimalist and smooth with a thick, satisfying olive-green handle. Designed for the perfect grip.</p>
+            <div class="price">$21.00</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="card">
+            <img src="Unknown-10.jpg" alt="Pink Bubble Tea Cup">
+            <h3>The Bubblegum Goblet</h3>
+            <p>An elegant footed base, scalloped rim, and a playful beaded pink handle for your fanciest lattes.</p>
+            <div class="price">$26.00</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="card">
+            <img src="Unknown-9.jpg" alt="Little Forager Illustration Mug">
+            <h3>Little Forager Mug</h3>
+            <p>A cozy classic mug featuring an adorable hand-painted girl foraging for mushrooms in the forest.</p>
+            <div class="price">$19.00</div>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Crafty Ventures. Handcrafted with love.</p>
+</footer>
+
+</body>
+</html> 
